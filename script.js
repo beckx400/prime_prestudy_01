@@ -1,4 +1,6 @@
-//function is called display
-function display(){
-	console.log("Hey this works!");
-};
+function display(a, b){
+	if (a > b){
+		console.log("Hey this works!");
+	};
+}
+display(5, 3);
